@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 
 import usersRoutes from './routes/users.js'
 const app = express();
-const PORT = "https://dibakar-crud-app-rest-api.vercel.app/";
+const PORT = 3000;
 
 app.use(bodyParser.json());
 
