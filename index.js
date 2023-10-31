@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 
 import usersRoutes from './routes/users.js'
 const app = express();
-const PORT = 'https://dibakarbera01.github.io/CRUD_APP_REST_API';
+const PORT = 3000;
 
 app.use(bodyParser.json());
 
